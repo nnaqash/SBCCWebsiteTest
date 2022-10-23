@@ -1,0 +1,91 @@
+$primary:             #00007e;
+$warning:             #f0de47;
+$light:               #FFFFFF;
+$success:             #2a972a;
+$info:                #4ed0ed;
+$dropdown-dark-bg:      $primary;
+$dropdown-dark-color:   $warning;
+$dropdown-min-width:    8rem;
+$dropdown-padding-y:    0;
+
+.social:hover {
+  color: #3c73ff;
+}
+
+@import "./carousel";
+@import "./about";
+@import "./donate";
+
+/* END OF HOME PAGE CAROUSEL */
+/*  ##### ##### ##### ##### ##### ##### ##### ##### ##### */
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Pattaya&display=swap");
+
+:root {
+  --bs-body-font-family: "Merriweather Sans", sans-serif;
+}
+
+.head {
+  font-family: "Pattaya", sans-serif;
+  justify-self: center;
+}
+
+.hov:hover {
+  background-color: #143ea4;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.list {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+small {
+  font-size: 14px;
+}
+
+footer {
+  padding-bottom: 0px;
+}
+
+.arrow {
+  transform: rotate(180deg);
+}
+
+ul {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  padding-top: 6%;
+  margin-left: 6rem;
+  max-width: 1500px;
+}
+
+.sidebar {
+  padding-top: 5rem;
+}
+
+.dropdown-menu-dark
+{
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+.stickyTab {
+  position: sticky;
+  top: 150px;
+
+  .sideTabs {
+    position: absolute;
+    right: 7rem;
+
+    #upcoming {
+      top: 50px;
+      background-color: #00007e;
+    }
+  }
+}
